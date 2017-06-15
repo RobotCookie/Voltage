@@ -13,6 +13,11 @@
    margin: 15px,15px,15px,15px;
    font-family:'Electrolize';
   }
+  .context-menu {
+  position: absolute;
+  z-index: 10;
+   background: green;
+}
   body {
    background: url("http://cdn.wallpapersafari.com/20/59/JnoQg0.jpg");
     color: red;
@@ -28,5 +33,24 @@
  <h2>Custom File Hosting For The Public</h2>
  <p>At Voltage We Aim To Make The Best Hosting Possible For <b>You!</b><p>
  </center>
+ <nav class="context-menu">
+  <ul class="context-menu__items">
+    <li class="context-menu__item">
+      <a href="#" class="context-menu__link">
+        <i class="fa fa-eye"></i> View Task
+      </a>
+    </li>
+    <li class="context-menu__item">
+      <a href="#" class="context-menu__link">
+        <i class="fa fa-edit"></i> Edit Task
+      </a>
+    </li>
+    <li class="context-menu__item">
+      <a href="#" class="context-menu__link">
+        <i class="fa fa-times"></i> Delete Task
+      </a>
+    </li>
+  </ul>
+</nav>
 </body>
 </html>
