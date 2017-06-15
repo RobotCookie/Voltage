@@ -11,16 +11,6 @@
    margin: 15px,15px,15px,15px;
    font-family:'Electrolize';
   }
-  .context-menu {
-  position: absolute;
-  z-index: 10;
-  background: green;
-  display: none;
-}
-  .context-menu--active {
-  display: block;
-}
-  
   body {
    background: url("http://cdn.wallpapersafari.com/20/59/JnoQg0.jpg");
     color: red;
@@ -36,87 +26,5 @@
  <h2>Custom File Hosting For The Public</h2>
  <p>At Voltage We Aim To Make The Best Hosting Possible For <b>You!</b><p>
  </center>
- <nav class="context-menu">
-  <ul class="context-menu__items">
-    <li class="context-menu__item">
-      <a href="#" class="context-menu__link">
-        <i class="fa fa-eye"></i> View Task
-      </a>
-    </li>
-    <li class="context-menu__item">
-      <a href="#" class="context-menu__link">
-        <i class="fa fa-edit"></i> Edit Task
-      </a>
-    </li>
-    <li class="context-menu__item">
-      <a href="#" class="context-menu__link">
-        <i class="fa fa-times"></i> Delete Task
-      </a>
-    </li>
-  </ul>
-</nav>
-<script>
- (function() {
-
-  "use strict";
-
- 
- 
-
-  /**
-   * Variables.
-   */
-  var taskItemClassName = 'task';
-  var menu = document.querySelector("#context-menu");
-  var menuState = 0;
-  var activeClassName = "context-menu--active";
-
-  /**
-   * Initialise our application's code.
-   */
-  function init() {
-    contextListener();
-    clickListener();
-    keyupListener();
-  }
-
-  /**
-   * Listens for contextmenu events.
-   */
-  function contextListener() {
-
-  }
-
-  /**
-   * Listens for click events.
-   */
-  function clickListener() {
-
-  }
-
-  /**
-   * Listens for keyup events.
-   */
-  function keyupListener() {
-
-  }
-
-  /**
-   * Turns the custom context menu on.
-   */
-  function toggleMenuOn() {
-    if ( menuState !== 1 ) {
-      menuState = 1;
-      menu.classList.add(activeClassName);
-    }
-  }
-
-  /**
-   * Run the app.
-   */
-  init();
-
-})();
- </script>
 </body>
 </html>
