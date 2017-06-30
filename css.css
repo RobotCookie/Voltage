@@ -1,0 +1,12 @@
+  @import url('https://fonts.googleapis.com/css?family=Electrolize');
+  center {
+   background: gray;
+   border-radius: 35px;
+   border: black;
+   margin: 15px,15px,15px,15px;
+   font-family:'Electrolize';
+  }
+  body {
+   background: green;
+   color: red;
+  }
