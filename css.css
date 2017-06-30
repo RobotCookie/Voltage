@@ -15,4 +15,12 @@
    background: green;
    color: red;
   }
+a {
+  margin: 10px,10px,10px,10px;
+  border-radius: 15px;
+  border: grey;
+  background: green;
+  color: red;
+}
+  
 
