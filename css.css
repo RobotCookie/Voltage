@@ -6,3 +6,7 @@ body {
 iframe {
   color: white;
 }
+a {
+  color: white
+  background: rgb(0,99,1);
+}
