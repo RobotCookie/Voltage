@@ -1,7 +1,10 @@
 body {
-color: white;
-background: black;
-font-family: cursive, sans-serif;
+ color: white;
+ background: black;
+ font-family: cursive, sans-serif;
+}
+i {
+ color: yellow;
 }
 
-<!--This is for page built.html-->
+<!--This is for page <b>built.html</b>-->
