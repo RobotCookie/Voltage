@@ -1,12 +1,24 @@
-body {
-  background: green;
-  color: white;
-  text-align: center;
-}
-iframe {
-  color: white;
-}
+ @import url('https://fonts.googleapis.com/css?family=Electrolize');
+  article {
+   background: gray;
+   border-radius: 35px;
+   border: black;
+   margin: 15px,15px,15px,15px;
+   font-family:'Electrolize';
+  }
+  body {
+   background: green;
+   color: red;
+    text-align: center;
+  }
+  center {
+   background: green;
+   color: red;
+  }
 a {
-  color: white
-  background: rgb(0,99,1);
+  margin: 20px,20px,20px,20px;
+  border-radius: 35px;
+  border: grey;
+  background: green;
+  color: blue;
 }
