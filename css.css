@@ -22,3 +22,7 @@ a {
   background: green;
   color: blue;
 }
+iframe {
+ background:white;
+ border:black;
+ }
